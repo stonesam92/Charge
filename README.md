@@ -4,10 +4,10 @@ A simple WatchKit app to display your iPhone's remaining battery life, whether o
 Provides a WatchKit glance, as well as a fully fledged app.
 
 ###Glance view:
-![Glance screenshot](http://i.imgur.com/F2b9tRE.png)
+![Glance screenshot](http://i.imgur.com/zgjnuqc.png)
 
 ###App View:
-![App screenshot](http://i.imgur.com/zgjnuqc.png)
+![App screenshot](http://i.imgur.com/F2b9tRE.png)
 
 For support, please contact me on Twitter: [@cmdshiftn](http://twitter.com/cmdshiftn)
 
