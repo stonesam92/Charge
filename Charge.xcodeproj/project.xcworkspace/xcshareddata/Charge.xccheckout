@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53FA86D4-7D33-4AD1-A575-CBD8BEB83FE4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Charge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CEC38F42742BDEA4C619AF7241ECB4C6751C0E7C</key>
+		<string>github.com:stonesam92/Charge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Charge.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CEC38F42742BDEA4C619AF7241ECB4C6751C0E7C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:stonesam92/Charge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CEC38F42742BDEA4C619AF7241ECB4C6751C0E7C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CEC38F42742BDEA4C619AF7241ECB4C6751C0E7C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Charge</string>
+		</dict>
+	</array>
+</dict>
+</plist>

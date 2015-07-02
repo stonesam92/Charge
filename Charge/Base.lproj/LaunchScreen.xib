@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="610"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone App Screen" translatesAutoresizingMaskIntoConstraints="NO" id="q1S-oy-rUl">
+                    <rect key="frame" x="75" y="130" width="350" height="350"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="350" id="7gA-FK-ZrU"/>
+                        <constraint firstAttribute="width" secondItem="q1S-oy-rUl" secondAttribute="height" multiplier="1:1" id="S3V-uA-6Em"/>
+                        <constraint firstAttribute="width" constant="350" id="dgf-bO-a1b"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7gA-FK-ZrU"/>
+                            <exclude reference="dgf-bO-a1b"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7q-9p-NB7">
+                    <rect key="frame" x="75" y="50" width="350" height="84"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="61"/>
+                    <color key="textColor" red="0.12941176469999999" green="0.76862745099999996" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q1S-oy-rUl" firstAttribute="width" secondItem="G7q-9p-NB7" secondAttribute="width" id="5w5-2P-cjj"/>
+                <constraint firstItem="q1S-oy-rUl" firstAttribute="centerX" secondItem="G7q-9p-NB7" secondAttribute="centerX" id="EKL-6J-tTO"/>
+                <constraint firstItem="q1S-oy-rUl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="75" id="EKk-yU-61c"/>
+                <constraint firstItem="G7q-9p-NB7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="Ijq-bU-m3o"/>
+                <constraint firstAttribute="trailing" secondItem="q1S-oy-rUl" secondAttribute="trailing" constant="75" id="NNt-Qg-B35"/>
+                <constraint firstAttribute="centerY" secondItem="q1S-oy-rUl" secondAttribute="centerY" id="eQT-NJ-g5c"/>
+                <constraint firstAttribute="centerX" secondItem="q1S-oy-rUl" secondAttribute="centerX" id="kJi-aV-K1n"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="558" y="520"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iPhone App Screen" width="350" height="350"/>
+    </resources>
+</document>

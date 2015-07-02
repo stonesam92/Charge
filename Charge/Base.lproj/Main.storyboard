@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone App Screen" translatesAutoresizingMaskIntoConstraints="NO" id="jCg-yR-ObP">
+                                <rect key="frame" x="75" y="75" width="450" height="450"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="5EI-qy-lya"/>
+                                    <constraint firstAttribute="width" secondItem="jCg-yR-ObP" secondAttribute="height" multiplier="1:1" id="Kv5-96-PUO"/>
+                                    <constraint firstAttribute="width" constant="350" id="u6F-Um-uos"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5EI-qy-lya"/>
+                                        <exclude reference="u6F-Um-uos"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use Charge on your Apple Watch to view your phone's battery from your wrist." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="13" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgz-Cu-YlG">
+                                <rect key="frame" x="21" y="505" width="558" height="50"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="gbM-R2-Rfn">
+                                <rect key="frame" x="75" y="60" width="450" height="110"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="80"/>
+                                <color key="textColor" red="0.12941176470588237" green="0.7686274509803922" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jCg-yR-ObP" firstAttribute="width" secondItem="gbM-R2-Rfn" secondAttribute="width" id="9KU-7D-0V8"/>
+                            <constraint firstItem="dgz-Cu-YlG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="5" id="M8z-sh-Njg"/>
+                            <constraint firstItem="jCg-yR-ObP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="75" id="Svu-t5-WCC"/>
+                            <constraint firstItem="jCg-yR-ObP" firstAttribute="centerX" secondItem="gbM-R2-Rfn" secondAttribute="centerX" id="c0s-fm-J20"/>
+                            <constraint firstAttribute="centerY" secondItem="jCg-yR-ObP" secondAttribute="centerY" id="ep1-dy-Is9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dgz-Cu-YlG" secondAttribute="trailing" constant="5" id="gQc-ad-Z7H"/>
+                            <constraint firstItem="gbM-R2-Rfn" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="top" constant="40" id="lFK-5f-pq1"/>
+                            <constraint firstAttribute="centerX" secondItem="jCg-yR-ObP" secondAttribute="centerX" id="oLn-Tv-o8I"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="dgz-Cu-YlG" secondAttribute="bottom" constant="45" id="oZf-hO-Cjs"/>
+                            <constraint firstAttribute="trailing" secondItem="jCg-yR-ObP" secondAttribute="trailing" constant="75" id="xXK-Qg-Pfp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chargeIcon" destination="jCg-yR-ObP" id="ma8-2C-8u7"/>
+                        <outlet property="titleLabel" destination="gbM-R2-Rfn" id="eNv-bd-0Ih"/>
+                        <outlet property="usageLabel" destination="dgz-Cu-YlG" id="yP4-aW-fqS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iPhone App Screen" width="350" height="350"/>
+    </resources>
+</document>
